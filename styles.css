@@ -1,0 +1,46 @@
+body{
+    background-color: #FFFAF0;
+    font-family:Verdana, Tahoma; 
+}
+h1{
+    text-align:center;
+}
+h2{
+    font-size: 14px;
+    text-align:center;
+}
+h3{
+    margin:auto;
+    font-size:14px;
+}
+figure{
+    margin: auto;
+    text-align: center;
+    display: block;
+    max-width:100%;
+    height:auto;
+}
+section{
+    max-width: 600px;
+    margin:50px  auto 10px auto;
+}
+ul{
+    margin-top: 50px;
+    display: block;
+    /*padding:2em;*/
+}
+li{
+    padding:10px;
+}
+a, .Info{
+    font-weight:bold;
+    text-decoration: none;
+    /*color: black;*/
+}
+a:hover{
+    color:purple;
+}
+@media(prefers-reduced-motion:no-preference){*{
+    scroll-behavior:smooth;
+}
+}
